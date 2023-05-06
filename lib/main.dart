@@ -37,7 +37,9 @@ class MyApp extends StatelessWidget {
                 'I am Buddy',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               ),
+              const SizedBox(height: 20,),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
                   Icon(Icons.home),
                   Icon(Icons.gps_not_fixed),
