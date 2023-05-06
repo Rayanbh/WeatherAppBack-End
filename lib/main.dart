@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
+             const SizedBox(height: 200),
               Image.asset(
                 'images/yeah.png',
                 width: 150,
