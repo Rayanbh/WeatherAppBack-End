@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
                 width: 150,
                 height: 150,
               ),
-              const Text('I am Buddy'),
+              const Text('I  Buddy'),
             ],
           ),
         ),
