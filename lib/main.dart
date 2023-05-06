@@ -12,18 +12,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'melbin',
       color: Colors.red,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: Center(
-            child: const Text('My Dog'),
+          appBar: AppBar(
+            title: Center(
+              child: const Text('My Dog'),
+            ),
           ),
-        ),
-      ),
+          body: Center(
+              child: Container(
+            child: Image.asset(images/yeah.png),
+          ))),
     );
   }
 }
