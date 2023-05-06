@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
+        backgroundColor: Colors.blue,
           appBar: AppBar(
+            backgroundColor: Colors.blueAccent,
             title: Center(
               child: const Text('My Dog'),
             ),
