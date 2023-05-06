@@ -37,13 +37,11 @@ class MyApp extends StatelessWidget {
                 'I am Buddy',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               ),
-              const SizedBox(
-                height: 20,
-              ),
               const Divider(
                 thickness: 1.0,
                 color: Colors.white,
-                indent: 100,
+                indent: 150,
+                endIndent: 150,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
