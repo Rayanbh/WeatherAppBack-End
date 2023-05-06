@@ -25,8 +25,18 @@ class MyApp extends StatelessWidget {
           ),
         ),
         body: Center(
-          child: Image.asset('images/yeah.png'),
+          child: Column(
+            children: [
+              Image.asset(
+                'images/yeah.png',
+                width: 150,
+                height: 150,
+              ),
+              const Text('I am Buddy'),
+            ],
+          ),
         ),
+
       ),
     );
   }
