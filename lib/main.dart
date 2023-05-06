@@ -27,13 +27,12 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              SizedBox(height: 200,),
               Image.asset(
                 'images/yeah.png',
                 width: 150,
                 height: 150,
               ),
-              const Text('I Buddy'),
+              const Text('I  Buddy'),
             ],
           ),
         ),
