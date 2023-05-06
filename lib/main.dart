@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
               ),
               const Text(
                 'I am Buddy',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20,color: Colors.white),
               ),
               const Divider(
                 thickness: 1.0,
