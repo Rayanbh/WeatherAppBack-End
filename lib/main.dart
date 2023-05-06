@@ -27,17 +27,19 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-             const SizedBox(height: 200),
+              const SizedBox(height: 200),
               Image.asset(
                 'images/yeah.png',
                 width: 150,
                 height: 150,
               ),
-              const Text('I am Buddy'),
+              const Text(
+                'I am Buddy',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              ),
             ],
           ),
         ),
-
       ),
     );
   }
