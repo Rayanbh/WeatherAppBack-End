@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           ),
           body: Center(
               child: Container(
-            child: Image.asset(images/yeah.png),
+            child: Image.asset('images/yeah.png'),
           ))),
     );
   }
