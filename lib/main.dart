@@ -18,16 +18,16 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         backgroundColor: Colors.blue,
-          appBar: AppBar(
-            backgroundColor: Colors.blueAccent,
-            title: Center(
-              child: const Text('My Dog'),
-            ),
+        appBar: AppBar(
+          backgroundColor: Colors.blueAccent,
+          title: const Center(
+            child: Text('My Dog'),
           ),
-          body: Center(
-              child: Container(
-            child: Image.asset('images/yeah.png'),
-          ))),
+        ),
+        body: Center(
+          child: Image.asset('images/yeah.png'),
+        ),
+      ),
     );
   }
 }
