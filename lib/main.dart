@@ -19,7 +19,9 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Weather-ue'),
+          title: Center(
+            child: const Text('My Dog'),
+          ),
         ),
       ),
     );
