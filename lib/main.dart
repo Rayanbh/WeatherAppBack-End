@@ -37,6 +37,14 @@ class MyApp extends StatelessWidget {
                 'I am Buddy',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               ),
+              Row(
+                children: const [
+                  Icon(Icons.home),
+                  Icon(Icons.gps_not_fixed),
+                  Icon(Icons.alarm),
+
+                ],
+              )
             ],
           ),
         ),
